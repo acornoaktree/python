@@ -64,18 +64,22 @@ assert_expectation('size', calculated=size('A simple string'), expected=15)
 assert_expectation('size', calculated=size('ho ho ho'), expected=8)
 # write your own test
 
+#--------------------------------------------------------------------
 
 # 6.
 # Create a function that takes a list and returns its size
 def list_size(list):
     pass
 
+
 assert_expectation('list_size', calculated=list_size([100]),   expected=1)
 assert_expectation('list_size', calculated=list_size(['a', 'b', 'c']), expected=3)
 assert_expectation('list_size', calculated=list_size([1, 'b', 'c', 10]), expected=4)
 # write your own test
 
-# 6.
+#--------------------------------------------------------------------
+
+# 7.
 # Create a function that takes a map and returns the number of keys
 def map_size(map):
     pass
