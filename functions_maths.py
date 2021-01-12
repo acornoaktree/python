@@ -43,18 +43,6 @@ assert_expectation('reverse_a_string', calculated=reverse_a_string('slept'), exp
 
 
 # 4.
-# Create a function that takes a string and reverses it
-def reverse_a_string(string):
-    pass
-
-
-assert_expectation('reverse_a_string', calculated=reverse_a_string('conor'), expected='ronoc')
-assert_expectation('reverse_a_string', calculated=reverse_a_string('jam'), expected='maj')
-assert_expectation('reverse_a_string', calculated=reverse_a_string('slept'), expected='tpels')
-# write your own test
-
-
-# 5.
 # Create a function that takes a string and returns all the letters as uppercase
 def to_uppercase(string):
     pass
@@ -67,7 +55,7 @@ assert_expectation('to_uppercase', calculated=to_uppercase('slept'), expected='S
 
 
 
-# 6.
+# 5.
 # Create a function that that multiplies a number 4 then adds 6 then divides by 3 and multiples by 5
 def do_maths(number):
     pass
