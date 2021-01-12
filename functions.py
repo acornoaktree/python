@@ -1,7 +1,4 @@
-def assert_expectation(name, calculated, expected):
-    if calculated != expected:
-        print(f'Function: {name} EXPECTED: {expected} CALCULATED: {calculated}')
-        raise AssertionError(f'Function: {name} EXPECTED: {expected} CALCULATED: {calculated}')
+from assertive import assert_expectation
 
 # 1.
 # Create a function that takes temperature in degrees celsius as a parameter and returns fahrenheit
