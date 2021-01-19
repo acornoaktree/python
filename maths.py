@@ -1,7 +1,7 @@
 from assertive import assert_expectation
 
 # 1. 
-# Create a function that takes a number and returns a boolean if it is positive or negative
+# Create a function that takes a number and returns True if it is positive
 # -3 -> False
 # 4 -> True
 # 0 -> True
@@ -15,7 +15,7 @@ assert_expectation('is_positive', calculated=is_positive(4), expected=True)
 assert_expectation('is_positive', calculated=is_positive(0), expected=True)
 
 # 2. 
-# Create a function that takes a number and returns a boolean if it is negative or positive
+# Create a function that takes a number and returns a True if it is negative
 # -3 -> True
 # 4 -> False
 # 0 -> False
