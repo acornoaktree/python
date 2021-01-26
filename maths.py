@@ -7,7 +7,11 @@ from assertive import assert_expectation
 # 0 -> True
 # -13 -> False
 def is_positive(number):
-    pass
+    if number > -1:
+        return True
+    else:
+        return False
+    
 
 
 assert_expectation('is_positive', calculated=is_positive(-3), expected=False)
@@ -21,7 +25,10 @@ assert_expectation('is_positive', calculated=is_positive(0), expected=True)
 # 0 -> False
 # -13 -> True
 def is_negative(number):
-    pass
+    if number < 0:
+        return True
+    else:
+        return False
 
 
 assert_expectation('is_negative', calculated=is_negative(-3), expected=True)
@@ -31,7 +38,12 @@ assert_expectation('is_negative', calculated=is_negative(0), expected=False)
 # 3.
 # Create a function that takes a string and reverses it
 def reverse_a_string(string):
-    pass
+    empty = ''
+    for letter in string:
+        empty = letter + empty
+    return empty
+
+
     
 
 reverse_a_string('hi')
